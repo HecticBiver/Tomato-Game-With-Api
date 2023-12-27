@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tomato Game</title>
+</head>
+<body>
+
+<h1>Instructions!!</h1>
+        <!-- Score Board -->
+            <div class="header"></div>
+            <div class="counter">
+                <h2>Score Counter</h2>
+                <h4>Answerd</h4>
+                <div class="s1">
+                    <h3 id="scores">0</h3>
+                </div>
+                <h4>Failed</h4>
+                <div class="s2">
+                    <h3 id="wrongAnswers">0</h3>
+                </div>
+            </div>
+            
+        <!-- Game Screen -->
+        
+            <div class="screen"></div>
+            <div class="controls"></div>
+       
+        <!-- Leader Board -->
+      
+            <div class="timer">
+                <p id = "timer"> Timer: 20</p>
+            </div>
+            
+        
+
+    <div class = "Picture">
+        <img src="" alt="" id="game">
+    </div>
+
+    <div class="buttonPos">
+    <input type='text' id='solution'>
+    <button onclick="submitGame()"> Submit </button>
+    <button onclick="window.location.href = 'RegisterPage1.html';">LogOut</button>
+   </div>
+
+</body>
+</html>
